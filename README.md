@@ -1,7 +1,9 @@
-### Hi there 👋
+# 
 
 
-``Git``实现了一个如[《命運石之門》](https://ja.wikipedia.org/wiki/STEINS;GATE)中跳跃的世界线般的神奇存在，<font color="#FF0000">但是人只能活一次</font>，无法跳跃
+``Git``实现了一个如[《命運石之門》](https://ja.wikipedia.org/wiki/STEINS;GATE)中跳跃的世界线般的神奇存在
+
+但是人只能活一次，无法跳跃
 
 所以，认真的生活吧。💪
 
