@@ -11,9 +11,9 @@ so,enjoy life to the fullest.✊
 
 だから人生を楽しんでください。😁
 
-- 🔭 I’m currently study on HENU
-- 🌱 I’m currently learning NLP/basic AI/android-dev
-- 📫 How to reach me: 2116020016@henu.edu.cn
+- 🔭 I’m currently study on HENU, Junior year.
+- 🌱 I’m currently learning NLP/basic AI/android-dev.
+- 📫 How to reach me: 2116020016@henu.edu.cn .
 
 <img align="center" src="https://github-readme-stats.vercel.app/api?username=3126058535&show_icons=true" />
 
