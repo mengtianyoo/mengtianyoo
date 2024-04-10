@@ -15,6 +15,7 @@ so,enjoy life to the fullest.✊
 - 🌱 I’m currently learning NLP/basic AI/android-dev.
 - 📫 How to reach me: 2116020016@henu.edu.cn or mengtianyoo@gmail.com .
 
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=3126058535&show_icons=true" />
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=3126058535&show_icons=true" style="display: block; margin: auto; width: 400px; height: 200px;" />
 
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=3126058535&layout=compact" /> 
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=3126058535&layout=compact" style="display: block; margin: auto; width: 400px; height: 200px;" /> 
+
