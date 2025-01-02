@@ -13,9 +13,9 @@ so,enjoy life to the fullest.✊
 
 だから人生を楽しんでください。😁
 
-- 🔭 I’m currently study on HENU, Junior year.
+- 🔭 I’m currently study on HENU, senior year.
 - 🌱 I’m currently learning NLP/basic AI/android-dev.
-- 📫 How to reach me: 2116020016@henu.edu.cn or mengtianyoo@gmail.com .
+- 📫 How to reach me: mengtianyoo@gmail.com .
 
 <img align="center" src="https://github-readme-stats.vercel.app/api?username=mengtianyoo&show_icons=true" style="display: block; margin: auto; width: 400px; height: 200px;" /> <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mengtianyoo&layout=compact" style="display: block; margin: auto; width: 400px; height: 200px;" /> 
 
