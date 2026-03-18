@@ -1,6 +1,6 @@
-<div align="center">
+<!-- <div align="center">
   <img src="images/giphy.gif" alt="岡部 倫太郎">
-</div>
+</div> -->
 
 #  
 
