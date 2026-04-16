@@ -8,7 +8,7 @@
 	const currentPage = document.body.dataset.page || "home";
 	const state = {
 		lang: loadLanguage(data.defaultLang || "zh"),
-		publicationMode: hasSelectedPublications() ? "selected" : "all"
+		publicationMode: data.publications.some(isSelected) ? "selected" : "all"
 	};
 
 	const elements = {
