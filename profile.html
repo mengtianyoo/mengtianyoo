@@ -3,45 +3,128 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Mengtian Yoo | Academic Homepage</title>
+		<title>Mengtian Yoo | Profile</title>
 		<meta
 			name="description"
-			content="A bilingual academic homepage for profile, research introduction, publications, projects, experience, and contact information."
+			content="Profile page for academic biography, education, interests, and basic information."
 		/>
 		<link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
 		<link rel="stylesheet" href="assets/css/academic.css" />
 	</head>
-	<body data-page="profile">
-		<a class="skip-link" href="#content-panel">Skip to content</a>
-		<header class="topbar">
-			<a class="brand" href="index.html" aria-label="Homepage">
-				<span class="brand-mark" id="site-brand-mark">MY</span>
-				<span class="brand-text" id="site-brand-text">Academic Profile</span>
-			</a>
-			<nav class="site-nav" aria-label="Primary navigation">
-				<div class="nav-links" id="nav-links"></div>
-			</nav>
-			<div class="lang-switch" role="group" aria-label="Language switch">
-				<button class="lang-button" data-lang="zh" type="button">中文</button>
-				<button class="lang-button" data-lang="en" type="button">EN</button>
+	<body>
+		<header class="masthead">
+			<div class="masthead-inner">
+				<a class="site-title" href="index.html">Mengtian Yoo</a>
+				<nav class="site-nav" aria-label="Primary navigation">
+					<a href="index.html">Home</a>
+					<a class="is-active" href="profile.html">Profile</a>
+					<a href="about.html">Research</a>
+					<a href="publications.html">Publications</a>
+					<a href="projects.html">Projects</a>
+					<a href="experience.html">Experience</a>
+					<a href="updates.html">Updates</a>
+					<a href="contact.html">Contact</a>
+				</nav>
 			</div>
 		</header>
 
-		<div class="page-shell">
-			<aside class="profile-panel" id="profile-panel"></aside>
-			<main class="content-panel" id="content-panel" tabindex="-1">
-				<noscript>
-					<div class="noscript-note">
-						This homepage uses a small script to render bilingual content. Please
-						enable JavaScript to view the full page.
+		<div class="site-shell">
+			<aside class="sidebar">
+				<img class="avatar" src="images/avatar.jpg" alt="Portrait of Mengtian Yoo" />
+				<h1 class="sidebar-name">Mengtian Yoo</h1>
+				<p class="sidebar-role">Undergraduate Student in Data Science</p>
+				<p class="sidebar-affiliation">Your University · Intelligent Data Lab</p>
+				<p class="sidebar-bio">
+					I am interested in research-oriented machine learning and NLP projects,
+					with a strong preference for clear documentation and reproducible work.
+				</p>
+
+				<dl class="sidebar-list">
+					<div>
+						<dt>Email</dt>
+						<dd><a href="mailto:your.email@example.com">your.email@example.com</a></dd>
 					</div>
-				</noscript>
+					<div>
+						<dt>GitHub</dt>
+						<dd><a href="https://github.com/yourname">github.com/yourname</a></dd>
+					</div>
+					<div>
+						<dt>Google Scholar</dt>
+						<dd><a href="#">scholar profile</a></dd>
+					</div>
+				</dl>
+
+				<div class="sidebar-links">
+					<a href="about.html">Research</a>
+					<a href="publications.html">Publications</a>
+					<a href="contact.html">Contact</a>
+				</div>
+			</aside>
+
+			<main class="content">
+				<article class="page-header">
+					<p class="page-kicker">Profile</p>
+					<h2 class="page-title">Personal Profile</h2>
+					<p class="page-lead">
+						This page is a direct-edit profile page for biography, interests, and
+						core personal information.
+					</p>
+				</article>
+
+				<section class="section-block">
+					<h3>Biography</h3>
+					<p>
+						I am currently an undergraduate student in data science. My academic
+						interests lie at the intersection of machine learning, natural
+						language processing, and data mining, especially in settings where
+						research ideas need to be translated into careful experiments and
+						well-documented systems.
+					</p>
+					<p>
+						I would like this homepage to work as a long-term academic profile
+						rather than a one-time portfolio. For that reason, the site is
+						organized around research interests, publications, projects,
+						experience, and contact details.
+					</p>
+				</section>
+
+				<section class="section-block">
+					<h3>Research Keywords</h3>
+					<div class="tag-list">
+						<span class="tag">Machine Learning</span>
+						<span class="tag">NLP</span>
+						<span class="tag">Data Mining</span>
+						<span class="tag">Research Workflow</span>
+						<span class="tag">Open-source Practice</span>
+					</div>
+				</section>
+
+				<section class="section-block">
+					<h3>Quick Facts</h3>
+					<div class="two-column">
+						<div class="soft-box">
+							<h4>Affiliation</h4>
+							<p>Your University · Intelligent Data Lab</p>
+						</div>
+						<div class="soft-box">
+							<h4>Location</h4>
+							<p>Shanghai, China</p>
+						</div>
+						<div class="soft-box">
+							<h4>Current Goal</h4>
+							<p>Research internships, paper writing, and stronger experiment workflows.</p>
+						</div>
+						<div class="soft-box">
+							<h4>Open To</h4>
+							<p>Academic collaboration, paper discussions, interdisciplinary projects.</p>
+						</div>
+					</div>
+				</section>
 			</main>
 		</div>
 
-		<footer class="site-footer" id="site-footer"></footer>
-
-		<script src="assets/js/site-content.js"></script>
-		<script src="assets/js/site.js"></script>
+		<footer class="footer">
+			<div class="footer-inner">Edit this page directly in <code>profile.html</code>.</div>
+		</footer>
 	</body>
 </html>

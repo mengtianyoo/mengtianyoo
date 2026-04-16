@@ -3,45 +3,128 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Mengtian Yoo | Academic Homepage</title>
+		<title>Mengtian Yoo | Research</title>
 		<meta
 			name="description"
-			content="A bilingual academic homepage for profile, research introduction, publications, projects, experience, and contact information."
+			content="Research page for interests, methods, and problem domains."
 		/>
 		<link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
 		<link rel="stylesheet" href="assets/css/academic.css" />
 	</head>
-	<body data-page="about">
-		<a class="skip-link" href="#content-panel">Skip to content</a>
-		<header class="topbar">
-			<a class="brand" href="index.html" aria-label="Homepage">
-				<span class="brand-mark" id="site-brand-mark">MY</span>
-				<span class="brand-text" id="site-brand-text">Academic Profile</span>
-			</a>
-			<nav class="site-nav" aria-label="Primary navigation">
-				<div class="nav-links" id="nav-links"></div>
-			</nav>
-			<div class="lang-switch" role="group" aria-label="Language switch">
-				<button class="lang-button" data-lang="zh" type="button">中文</button>
-				<button class="lang-button" data-lang="en" type="button">EN</button>
+	<body>
+		<header class="masthead">
+			<div class="masthead-inner">
+				<a class="site-title" href="index.html">Mengtian Yoo</a>
+				<nav class="site-nav" aria-label="Primary navigation">
+					<a href="index.html">Home</a>
+					<a href="profile.html">Profile</a>
+					<a class="is-active" href="about.html">Research</a>
+					<a href="publications.html">Publications</a>
+					<a href="projects.html">Projects</a>
+					<a href="experience.html">Experience</a>
+					<a href="updates.html">Updates</a>
+					<a href="contact.html">Contact</a>
+				</nav>
 			</div>
 		</header>
 
-		<div class="page-shell">
-			<aside class="profile-panel" id="profile-panel"></aside>
-			<main class="content-panel" id="content-panel" tabindex="-1">
-				<noscript>
-					<div class="noscript-note">
-						This homepage uses a small script to render bilingual content. Please
-						enable JavaScript to view the full page.
+		<div class="site-shell">
+			<aside class="sidebar">
+				<img class="avatar" src="images/avatar.jpg" alt="Portrait of Mengtian Yoo" />
+				<h1 class="sidebar-name">Mengtian Yoo</h1>
+				<p class="sidebar-role">Undergraduate Student in Data Science</p>
+				<p class="sidebar-affiliation">Your University · Intelligent Data Lab</p>
+				<p class="sidebar-bio">
+					My interests center on building clearer links between research
+					questions, methods, experiments, and real applications.
+				</p>
+
+				<dl class="sidebar-list">
+					<div>
+						<dt>Interests</dt>
+						<dd>ML, NLP, data mining, research tooling</dd>
 					</div>
-				</noscript>
+					<div>
+						<dt>Email</dt>
+						<dd><a href="mailto:your.email@example.com">your.email@example.com</a></dd>
+					</div>
+				</dl>
+
+				<div class="sidebar-links">
+					<a href="publications.html">Publications</a>
+					<a href="projects.html">Projects</a>
+				</div>
+			</aside>
+
+			<main class="content">
+				<article class="page-header">
+					<p class="page-kicker">Research</p>
+					<h2 class="page-title">Research Interests and Approach</h2>
+					<p class="page-lead">
+						This page can function like a simple research statement: what topics
+						you care about, how you approach them, and what kinds of questions you
+						want to study next.
+					</p>
+				</article>
+
+				<section class="section-block">
+					<h3>Research Themes</h3>
+					<div class="highlight-list">
+						<div class="soft-box">
+							<h4>Machine Learning</h4>
+							<p>
+								I am interested in data-driven modeling, evaluation design, and
+								how to make model behavior easier to understand and reproduce.
+							</p>
+						</div>
+						<div class="soft-box">
+							<h4>Natural Language Processing</h4>
+							<p>
+								I care about multilingual text understanding, research
+								assistants for reading and summarization, and practical NLP
+								workflows.
+							</p>
+						</div>
+						<div class="soft-box">
+							<h4>Data Mining</h4>
+							<p>
+								I am also interested in how patterns can be discovered from
+								structured and unstructured data in meaningful application
+								settings.
+							</p>
+						</div>
+					</div>
+				</section>
+
+				<section class="section-block">
+					<h3>Methods and Workflow</h3>
+					<p>
+						I prefer research workflows that are incremental, readable, and easy
+						to revisit. That means carefully recording literature notes, designing
+						experiments with explicit questions in mind, and preserving code and
+						results in a way that supports later revision or collaboration.
+					</p>
+					<p>
+						In practice, I am particularly interested in the space between
+						exploratory work and formal results: how ideas move from notes to
+						prototypes, then to experiments, and eventually to papers or systems.
+					</p>
+				</section>
+
+				<section class="section-block">
+					<h3>Application Domains</h3>
+					<ul>
+						<li>Research support tools for literature review and note organization</li>
+						<li>Multilingual text analytics and document understanding</li>
+						<li>Data storytelling, reporting, and explainable analysis workflows</li>
+						<li>Academic and interdisciplinary projects where reproducibility matters</li>
+					</ul>
+				</section>
 			</main>
 		</div>
 
-		<footer class="site-footer" id="site-footer"></footer>
-
-		<script src="assets/js/site-content.js"></script>
-		<script src="assets/js/site.js"></script>
+		<footer class="footer">
+			<div class="footer-inner">Edit this page directly in <code>about.html</code>.</div>
+		</footer>
 	</body>
 </html>

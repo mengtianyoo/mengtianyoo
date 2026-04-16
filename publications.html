@@ -3,45 +3,126 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Mengtian Yoo | Academic Homepage</title>
+		<title>Mengtian Yoo | Publications</title>
 		<meta
 			name="description"
-			content="A bilingual academic homepage for profile, research introduction, publications, projects, experience, and contact information."
+			content="Publication list page for papers, preprints, reports, and research outputs."
 		/>
 		<link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
 		<link rel="stylesheet" href="assets/css/academic.css" />
 	</head>
-	<body data-page="publications">
-		<a class="skip-link" href="#content-panel">Skip to content</a>
-		<header class="topbar">
-			<a class="brand" href="index.html" aria-label="Homepage">
-				<span class="brand-mark" id="site-brand-mark">MY</span>
-				<span class="brand-text" id="site-brand-text">Academic Profile</span>
-			</a>
-			<nav class="site-nav" aria-label="Primary navigation">
-				<div class="nav-links" id="nav-links"></div>
-			</nav>
-			<div class="lang-switch" role="group" aria-label="Language switch">
-				<button class="lang-button" data-lang="zh" type="button">中文</button>
-				<button class="lang-button" data-lang="en" type="button">EN</button>
+	<body>
+		<header class="masthead">
+			<div class="masthead-inner">
+				<a class="site-title" href="index.html">Mengtian Yoo</a>
+				<nav class="site-nav" aria-label="Primary navigation">
+					<a href="index.html">Home</a>
+					<a href="profile.html">Profile</a>
+					<a href="about.html">Research</a>
+					<a class="is-active" href="publications.html">Publications</a>
+					<a href="projects.html">Projects</a>
+					<a href="experience.html">Experience</a>
+					<a href="updates.html">Updates</a>
+					<a href="contact.html">Contact</a>
+				</nav>
 			</div>
 		</header>
 
-		<div class="page-shell">
-			<aside class="profile-panel" id="profile-panel"></aside>
-			<main class="content-panel" id="content-panel" tabindex="-1">
-				<noscript>
-					<div class="noscript-note">
-						This homepage uses a small script to render bilingual content. Please
-						enable JavaScript to view the full page.
+		<div class="site-shell">
+			<aside class="sidebar">
+				<img class="avatar" src="images/avatar.jpg" alt="Portrait of Mengtian Yoo" />
+				<h1 class="sidebar-name">Mengtian Yoo</h1>
+				<p class="sidebar-role">Undergraduate Student in Data Science</p>
+				<p class="sidebar-affiliation">Your University · Intelligent Data Lab</p>
+				<p class="sidebar-bio">
+					This page lists papers, preprints, reports, and other research outputs.
+				</p>
+
+				<dl class="sidebar-list">
+					<div>
+						<dt>Scholar</dt>
+						<dd><a href="#">Google Scholar profile</a></dd>
 					</div>
-				</noscript>
+					<div>
+						<dt>Code</dt>
+						<dd><a href="https://github.com/yourname">GitHub repositories</a></dd>
+					</div>
+				</dl>
+
+				<div class="sidebar-links">
+					<a href="projects.html">Projects</a>
+					<a href="contact.html">Contact</a>
+				</div>
+			</aside>
+
+			<main class="content">
+				<article class="page-header">
+					<p class="page-kicker">Research Output</p>
+					<h2 class="page-title">Publications</h2>
+					<p class="page-lead">
+						You can list formal papers here, but this page can also include
+						preprints, technical reports, surveys, course research, or other
+						written outputs.
+					</p>
+				</article>
+
+				<section class="section-block">
+					<h3>2026</h3>
+					<ul class="publication-list">
+						<li>
+							<div class="item-title">Title of Your First Paper or Preprint</div>
+							<span class="item-meta">Mengtian Yoo, Coauthor A, Coauthor B</span>
+							<p>Conference / Journal / arXiv, 2026.</p>
+							<p>
+								A short note can be added here to explain the main contribution,
+								the method, or why the work is important.
+							</p>
+							<div class="inline-links">
+								<a href="#">PDF</a>
+								<a href="#">Code</a>
+								<a href="#">Project Page</a>
+							</div>
+						</li>
+					</ul>
+				</section>
+
+				<section class="section-block">
+					<h3>2025</h3>
+					<ul class="publication-list">
+						<li>
+							<div class="item-title">Title of Another Conference or Journal Article</div>
+							<span class="item-meta">Mengtian Yoo, Coauthor C, Coauthor D</span>
+							<p>Venue name or submission status, 2025.</p>
+							<p>
+								If a paper is still under review, in preparation, or intended for
+								a workshop, you can say that directly here.
+							</p>
+							<div class="inline-links">
+								<a href="#">Abstract</a>
+							</div>
+						</li>
+					</ul>
+				</section>
+
+				<section class="section-block">
+					<h3>2024</h3>
+					<ul class="publication-list">
+						<li>
+							<div class="item-title">Technical Report, Survey, or Course Research Project</div>
+							<span class="item-meta">Mengtian Yoo</span>
+							<p>Lab report, course paper, or personal technical document.</p>
+							<p>
+								If you do not yet have many formal papers, this is still a good
+								place to show serious academic writing.
+							</p>
+						</li>
+					</ul>
+				</section>
 			</main>
 		</div>
 
-		<footer class="site-footer" id="site-footer"></footer>
-
-		<script src="assets/js/site-content.js"></script>
-		<script src="assets/js/site.js"></script>
+		<footer class="footer">
+			<div class="footer-inner">Edit this page directly in <code>publications.html</code>.</div>
+		</footer>
 	</body>
 </html>

@@ -3,45 +3,166 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Mengtian Yoo | Academic Homepage</title>
+		<title>Mengtian Yoo | Home</title>
 		<meta
 			name="description"
-			content="A bilingual academic homepage for profile, research introduction, publications, projects, experience, and contact information."
+			content="Academic-style personal homepage for biography, research, publications, projects, and contact information."
 		/>
 		<link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
 		<link rel="stylesheet" href="assets/css/academic.css" />
 	</head>
-	<body data-page="home">
-		<a class="skip-link" href="#content-panel">Skip to content</a>
-		<header class="topbar">
-			<a class="brand" href="index.html" aria-label="Homepage">
-				<span class="brand-mark" id="site-brand-mark">MY</span>
-				<span class="brand-text" id="site-brand-text">Academic Profile</span>
-			</a>
-			<nav class="site-nav" aria-label="Primary navigation">
-				<div class="nav-links" id="nav-links"></div>
-			</nav>
-			<div class="lang-switch" role="group" aria-label="Language switch">
-				<button class="lang-button" data-lang="zh" type="button">中文</button>
-				<button class="lang-button" data-lang="en" type="button">EN</button>
+	<body>
+		<header class="masthead">
+			<div class="masthead-inner">
+				<a class="site-title" href="index.html">Mengtian Yoo</a>
+				<nav class="site-nav" aria-label="Primary navigation">
+					<a class="is-active" href="index.html">Home</a>
+					<a href="profile.html">Profile</a>
+					<a href="about.html">Research</a>
+					<a href="publications.html">Publications</a>
+					<a href="projects.html">Projects</a>
+					<a href="experience.html">Experience</a>
+					<a href="updates.html">Updates</a>
+					<a href="contact.html">Contact</a>
+				</nav>
 			</div>
 		</header>
 
-		<div class="page-shell">
-			<aside class="profile-panel" id="profile-panel"></aside>
-			<main class="content-panel" id="content-panel" tabindex="-1">
-				<noscript>
-					<div class="noscript-note">
-						This homepage uses a small script to render bilingual content. Please
-						enable JavaScript to view the full page.
+		<div class="site-shell">
+			<aside class="sidebar">
+				<img class="avatar" src="images/avatar.jpg" alt="Portrait of Mengtian Yoo" />
+				<h1 class="sidebar-name">Mengtian Yoo</h1>
+				<p class="sidebar-role">Undergraduate Student in Data Science</p>
+				<p class="sidebar-affiliation">Your University · Intelligent Data Lab</p>
+				<p class="sidebar-bio">
+					I am interested in machine learning, natural language processing, data
+					mining, and reproducible research workflows.
+				</p>
+
+				<dl class="sidebar-list">
+					<div>
+						<dt>Email</dt>
+						<dd><a href="mailto:your.email@example.com">your.email@example.com</a></dd>
 					</div>
-				</noscript>
+					<div>
+						<dt>Location</dt>
+						<dd>Shanghai, China</dd>
+					</div>
+					<div>
+						<dt>Interests</dt>
+						<dd>ML, NLP, data mining, open science</dd>
+					</div>
+				</dl>
+
+				<div class="sidebar-links">
+					<a href="publications.html">Google Scholar</a>
+					<a href="https://github.com/yourname">GitHub</a>
+					<a href="contact.html">Contact</a>
+				</div>
+			</aside>
+
+			<main class="content">
+				<article class="page-header">
+					<p class="page-kicker">Academic Homepage</p>
+					<h2 class="page-title">Home</h2>
+					<p class="page-lead">
+						This site is organized in a simpler academic-homepage style. Each page
+						can be edited directly in HTML, without relying on content-rendering
+						scripts.
+					</p>
+				</article>
+
+				<section class="section-block">
+					<h3>Short Bio</h3>
+					<p>
+						I am a data science undergraduate student interested in how data,
+						learning, and language technologies can be used to build reliable and
+						reproducible intelligent systems. My current interests include machine
+						learning, natural language processing, data mining, and research tools
+						for literature review and experiment management.
+					</p>
+					<p>
+						This homepage is intended to function as a simple academic profile
+						where I can introduce my background, summarize current work, list
+						publications and projects, and provide contact information for future
+						collaboration.
+					</p>
+				</section>
+
+				<section class="section-block">
+					<h3>Research Interests</h3>
+					<div class="tag-list">
+						<span class="tag">Machine Learning</span>
+						<span class="tag">Natural Language Processing</span>
+						<span class="tag">Data Mining</span>
+						<span class="tag">Knowledge Discovery</span>
+						<span class="tag">Reproducible Research</span>
+					</div>
+				</section>
+
+				<section class="section-block">
+					<h3>News</h3>
+					<ul class="news-list">
+						<li>
+							<span class="item-date">2026.04</span>
+							<div class="item-title">Redesigned this site into a simpler academic homepage</div>
+							<p>The current version favors straightforward page editing and a calmer layout.</p>
+						</li>
+						<li>
+							<span class="item-date">2026.03</span>
+							<div class="item-title">Started organizing paper reading notes and experiment logs</div>
+							<p>I am gradually building a more structured workflow for reading, summarizing, and experimenting.</p>
+						</li>
+						<li>
+							<span class="item-date">2025.12</span>
+							<div class="item-title">Open to research discussions and internship opportunities</div>
+							<p>I welcome conversations related to research internships, paper ideas, and data projects.</p>
+						</li>
+					</ul>
+				</section>
+
+				<section class="section-block">
+					<h3>Selected Publications</h3>
+					<ul class="publication-list">
+						<li>
+							<div class="item-title">Title of Your First Paper or Preprint</div>
+							<span class="item-meta">Mengtian Yoo, Coauthor A, Coauthor B · Conference / Journal / arXiv, 2026</span>
+							<p>A short summary of the main contribution, method, or experimental setting.</p>
+						</li>
+						<li>
+							<div class="item-title">Title of Another Conference or Journal Article</div>
+							<span class="item-meta">Mengtian Yoo, Coauthor C, Coauthor D · Venue name or submission status, 2025</span>
+							<p>Use one or two sentences to summarize why this work matters.</p>
+						</li>
+					</ul>
+					<div class="inline-links">
+						<a href="publications.html">Full publication list</a>
+					</div>
+				</section>
+
+				<section class="section-block">
+					<h3>Selected Projects</h3>
+					<div class="two-column">
+						<div class="soft-box">
+							<h4>Bilingual Academic Homepage</h4>
+							<p>A lightweight academic-style website for profile, publications, projects, and contact information.</p>
+						</div>
+						<div class="soft-box">
+							<h4>Paper Reading Workspace</h4>
+							<p>A project concept for organizing literature notes, annotations, and research questions.</p>
+						</div>
+					</div>
+					<div class="inline-links">
+						<a href="projects.html">View all projects</a>
+					</div>
+				</section>
 			</main>
 		</div>
 
-		<footer class="site-footer" id="site-footer"></footer>
-
-		<script src="assets/js/site-content.js"></script>
-		<script src="assets/js/site.js"></script>
+		<footer class="footer">
+			<div class="footer-inner">
+				Last updated: April 2026. Edit page content directly in the HTML files.
+			</div>
+		</footer>
 	</body>
 </html>
